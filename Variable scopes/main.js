@@ -134,4 +134,4 @@ function makeArmy() {
 let army = makeArmy();
 
 army[0]();
-army[5]();
+army[5]();  
