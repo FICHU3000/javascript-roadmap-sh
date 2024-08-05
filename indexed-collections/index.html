@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<style>
+   body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .result {
+      font-size: 20px;
+      font-weight: 500;
+      color: blueviolet;
+   }
+</style>
+</head>
+<body>
+<h1>Indexed collections in JavaScript</h1>
+<div class="result"></div>
+<br />
+<button class="Btn">CLICK HERE</button>
+<h3>Click on the above button to create and display the array</h3>
+<script>
+   let resEle = document.querySelector(".result");
+   let BtnEle = document.querySelector(".Btn");
+   BtnEle.addEventListener("click", () => {
+      let arr = [1, 2, 3, 4, 5];
+      arr.forEach((item, index) => {
+         resEle.innerHTML += `arr[${index}] = ${item} <br>`;
+      });
+   });
+</script>
+</body>
+</html>
