@@ -25,4 +25,4 @@ x <8 	//true
 x >= 8 	//false
 
 // <=: 	less than or equal to
-x <= 8 	//true
+x <= 8 	//true  
