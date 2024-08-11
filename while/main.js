@@ -22,3 +22,11 @@ do {
 } while (i > 0 && i < 5);
 
 console.log(result);
+
+
+const sharifProperties = {
+  color: "black",
+  height: "karlanka",
+  intellect: "anime",
+  3: 1
+}
